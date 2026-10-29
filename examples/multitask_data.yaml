@@ -1,0 +1,16 @@
+path: /mnt/d/datasets/your_dataset
+train: images/train
+val: images/val
+
+
+# detection classes
+nc: 2
+names:
+  0: class0
+  1: class1
+
+# image-level classes
+img_nc: 2
+img_names:
+  0: normal
+  1: abnormal

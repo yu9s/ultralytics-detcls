@@ -1,0 +1,39 @@
+path: /home/tongtu/ssr/ultralytics-detcls/边坡塌陷实验
+
+train: 
+  - train/collapse/1/images
+  - train/collapse/2/images
+  - train/no_collapse/1/images
+  - train/no_collapse/2/images
+
+val: 
+  - val/collapse/1/images
+  - val/collapse/2/images
+  - val/no_collapse/1/images
+  - val/no_collapse/2/images
+
+
+
+# det
+nc: 13
+names:
+- small_car
+- large_car
+- motorcycle
+- person
+- abandon
+- smoke
+- fire
+- animal
+- other
+- construction_vehicle
+- construction_person
+- tanker_truck
+- conical_barrel
+
+
+# cls
+img_nc: 2
+img_names:
+  0: collapse
+  1: no_collapse
